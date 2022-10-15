@@ -26,7 +26,7 @@ export default function Home(){
             <div className="row">
                <div className="col-md-4">
                   <div className="box_text">
-                     <figure><img src="homeimg.jpg" alt="#"/></figure>
+                     <figure><img style={{height:"293px"}} src="homeimg.jpg" alt="#"/></figure>
                   </div>
                </div>
                <div className="col-md-4">

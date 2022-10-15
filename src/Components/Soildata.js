@@ -25,7 +25,7 @@ export default function Soildata(){
     <div className="card" style={{backgroundColor:"#f4cb1e"}}>
       <img style={{padding:"10px",height: "400px",width: "725px",paddingLeft: "15px"}} src="blackSoilCott.jpeg" className="card-img-top" alt="cotton"/>
       <div className="card-body">
-        <h1 style={{color:"black"}}  className="card-title">Cotton</h1>
+        <h5 style={{color:"black"}}  className="card-title">Cotton</h5>
         <p> <span style={{color:"black",fontWeight:"bold"}} className="card-text">Best Season for plantation: </span><span style={{fontWeight:"620"}}>Spring</span></p>
         <p><span style={{color:"black",fontWeight:"bold"}} className="card-text">Time needed to grow: </span><span style={{fontWeight:"620"}}>6-8 months</span></p>
         <p><span style={{color:"black",fontWeight:"bold"}} className="card-text">Season of Harvest: </span><span style={{fontWeight:"620"}}>Winter</span></p>
