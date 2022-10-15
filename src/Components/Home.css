@@ -1,0 +1,134 @@
+.card-img{
+    /* opacity: .8; */
+}
+
+
+  
+  div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.5;
+  }
+  
+  div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+    text-align: justify;
+  }
+
+
+  .banner_main {
+    background: url(/public/banner.jpg);
+    background-repeat: no-repeat;
+    min-height: 840px;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.text-bg {
+    text-align: center;
+}
+
+.text-bg h1 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 110px;
+    line-height: 120px;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+.text-bg p {
+    font-size: 17px;
+    color: #fff;
+    line-height: 28px;
+    font-weight: 500;
+    padding-bottom: 50px;
+    display: block;
+}
+
+.text-bg a {
+    font-size: 17px;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 600;
+    padding: 11px 0px;
+    width: 100%;
+    max-width: 230px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 30px;
+    border: #f4cb1e solid 4px;
+    transition: ease-in all 0.5s;
+}
+
+.text-bg a:hover {
+    background-color: #13110e;
+    color: #fff;
+    transition: ease-in all 0.5s;
+}
+
+
+.three_box {
+    margin-top: -160px;
+}
+
+.box_text {
+    box-shadow: 0 0 95px rgba(13, 3, 3, 0.56);
+}
+
+.box_text figure {
+    margin: 0;
+}
+
+.box_text figure img {
+    width: 100%;
+}
+
+
+
+.hottest {
+    background: #fff;
+    padding: 90px 0 0px 0;
+}
+
+.hottest .titlepage {
+    padding-bottom: 0;
+    text-align: left;
+}
+
+.hottest .titlepage h2 {
+    color: #000;
+}
+
+.hottest .hottest_box {
+    position: relative;
+    background-color: #f4cb1e;
+    padding: 60px 40px;
+}
+
+.hottest .hottest_box::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: -30px;
+    width: 31px;
+    height: 100%;
+    background: url(/public/h_cross.png);
+    background-repeat: no-repeat;
+    display: block;
+    background-position: center center;
+}
+
+.hottest .hottest_box p {
+    color: #fff;
+    font-size: 17px;
+    line-height: 32px;
+    font-weight: 500;
+}

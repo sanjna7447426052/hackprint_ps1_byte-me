@@ -1,0 +1,146 @@
+.choose {
+    
+    background-color: #242323;
+    padding: 90px 0 190px 0;
+    position: relative;
+}
+
+.choose::after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0px;
+    width: 100%;
+    height: 195px;
+    background: url(/public/choose_bottom_cross.png);
+    background-repeat: no-repeat;
+    display: block;
+    background-position: center center;
+}
+
+/* .titlepage{
+    text-align: center;
+    padding-left: 200px;
+} */
+.choose .titlepage {
+    /* text-align: left; */
+    padding-bottom: 0;
+}
+
+.choose .titlepage h2 {
+    color: rgb(227, 24, 24);
+}
+
+.choose .titlepage p {
+    color: #fff;
+    display: block;
+    font-size: 17px;
+    padding-top: 20px;
+    line-height: 32px;
+}
+
+.choose_img {
+    background-color: #fff;
+    padding: 20px;
+    margin-left: 30px;
+    margin-right: 40px;
+}
+
+.choose_img figure {
+    margin: 0;
+    margin-left: -50px;
+}
+
+.choose_img figure img {
+    width: 100%;
+}
+
+.padding_with {
+    max-width: 653px;
+    float: right;
+    width: 100%;
+}
+
+.choose_box {
+    display: flex;
+}
+
+.choose_box i {
+    float: left;
+}
+
+.choose_box i img {
+    float: left;
+    background-color: #f4cb1e;
+    width: 140px;
+    padding: 10px;
+    border-radius: 60px;
+}
+
+.choose_text {
+    float: right;
+    padding-left: 20px;
+}
+
+.choose_text h3 {
+    color: #fff;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.choose_text p {
+    color: #fff;
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.padding_bottom {
+    padding-bottom: 30px;
+}
+
+
+/** end choose  section **/
+
+
+/** product  section **/
+
+.product_box {
+    position: relative;
+    margin-bottom: 30px;
+    box-shadow: 0 0 51px rgba(13, 3, 3, 0.13);
+}
+
+.product_box figure {
+    margin: 0;
+}
+
+.product_box figure img {
+    width: 100%;
+    height: 343px;
+}
+
+.product_box h3 {
+    position: absolute;
+    bottom: 15px;
+    padding: 0;
+    right: 50px;
+    text-align: right;
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.black {
+    color: #242323 !important;
+}
+
+.padding_left0 {
+    padding-left: 0;
+}
+
+.padding_right0 {
+    padding-right: 0;
+}
